@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+#left{
+    width: 15%;
+    height: 100%;
+
+    border-right:1px solid #dbdbdb;
+    border-width: thin;
+    padding: 2.2vmax 1vmax;
+    background-color: #ffffff;
+}
+#left>svg{
+margin-left: .7vmax;
+margin-bottom: 2vmax;
+}
+#left button{
+    width: 100%;
+    height: 2.8vmax;
+    display: flex;
+    margin-top: 10px;
+    /* align-items: center; */
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    gap: 12px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#left button .circ{
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.circ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.solo{
+    margin-bottom: 8.2vmax;
+}
+#thr h3{
+    font-weight: 400;
+}
+#left button:hover{
+    background-color:#efefef;
+}
+#left button:hover .circ{
+    scale: 1.1;
+}
+#left button:hover svg{
+    scale: 1.1;
+}
+#left button h3{
+    margin-top: 3px;
+}
+#left button svg{
+    height: 26px;
+}
+.tolo h3{
+    font-weight: 400;
+}
+#btb h3{
+    font-weight: 700;
+}
+#on h3{
+    font-weight: 400;
+}
+
+
+.pop{
+    width:100%;
+    height:100% ;
+    background-color: rgba(0, 0, 0, 0.575);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#boo{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    color: white;
+}
+.box{
+    width: 68%;
+    height: 95%;
+    border-radius: 6px;
+    display: flex;
+    
+    background-color: white;
+    overflow: hidden;
+}
+.leftpart{
+    width: 60%;
+    height: 100%;
+    
+}
+.leftpart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rightpart{
+    width: 40%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.cmttop{
+    width: 100%;
+    height: 4vmax;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    padding: 0 .8vmax;
+    gap: 10px;
+}
+.leftside h4{
+    font-weight: 600;
+}
+.rightside{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 .8vmax;
+    height: 100%;
+}
+.dp{
+    width: 2.2vmax;
+    height: 2.2vmax;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cmtmid{
+    width: 100%;
+    height: 4vmax;
+    display: flex;
+    justify-content: space-between;
+}
+.cmtmain{
+    width: 100%;
+    height: 67%;
+    padding-top: 2px;
+    overflow-y: auto;
+    border-bottom: 1px solid #dbdbdb;
+    
+}
+#lick{
+    fill: #ff3040;
+    
+}
+.cmtside{
+    width: 100%;
+    height: 2vmax;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.mid{
+    width: fit-content;
+    display: flex;
+    height: 100%;
+    align-items:flex-start;
+    gap: 10px;
+    margin-left: -15vmax;
+}
+.end{
+    width: 5%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+#lik{
+    fill: black;
+}
+
+
+
+
+/* -------- */
+.ptop{
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px;
+    /* background-color: green; */
+}
+.pthre{
+    width: fit-content;
+    height: fit-content;
+    padding: 0 12px;
+}
+.pthre h5{
+    font-size: 12px;
+    font-weight: 400;
+}
+.pcaption{
+    width:fit-content ;
+    height: fit-content;
+   display: flex;
+   align-items: center;
+   padding-left: 10px;
+   gap: 4px;
+}
+.pcaption h5{
+    font-weight: 500;
+    font-size: 13px;
+}
+.pthre h5 span{
+    font-weight: 500;
+}
+.pcaption h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+.lf h5{
+    font-weight: 500;
+}
+.lf{
+    display: flex;
+    justify-content: flex-start;
+    gap: 6px;
+    align-items: center;
+    
+}
+.lf span{
+    color: #acacac;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* --------- */
+
+.realcmt{
+    width: 100%;
+    height: 3vmax;
+    margin-top: 5px;
+    /* background-color: red; */
+    border-top: 1px solid #dbdbdb;
+    
+    padding: 10px;
+}
+.realcmt form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.realcmt input{
+    height: 100%;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    color: #179ff7;
+    font-weight: 700;
+}
+#unli{
+    fill: #ff3040;
+}
+#likecount{
+position: absolute;
+bottom: -3%;
+left: 14%;
+color: #acacac;
+font-weight: 500;
+}
